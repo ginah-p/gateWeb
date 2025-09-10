@@ -7,7 +7,7 @@ export const metadata = {
   description: 'High-quality aluminium gates and windows for your home and business.',
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>

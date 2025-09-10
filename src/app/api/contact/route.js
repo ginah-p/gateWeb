@@ -6,9 +6,7 @@ export async function POST(request) {
     const formData = await request.formData();
     const name = formData.get('name');
     const email = formData.get('email');
-    const phone = formData.get('phone');
     const message = formData.get('message');
-    const photos = formData.getAll('photos');
 
     // Server-side validation
     if (!name || !email || !message) {
