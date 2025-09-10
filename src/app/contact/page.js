@@ -40,6 +40,14 @@ const ContactPage = () => {
       <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
       <p className="mb-8">Fill out the form below to get a free quote. You can also upload up to 4 photos of your project.</p>
 
+      <div className="mb-8">
+        <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
+        <p className="mb-2"><strong>Email:</strong> contact@aluminiumgates.com</p>
+        <p className="mb-2"><strong>Phone:</strong> +1 (555) 123-4567</p>
+        <p><strong>Address:</strong> 123 Main Street, Anytown, USA 12345</p>
+      </div>
+
+
       {success && <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative mb-4">Your message has been sent successfully!</div>}
       {error && <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4">{error}</div>}
 

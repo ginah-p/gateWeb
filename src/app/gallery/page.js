@@ -3,12 +3,12 @@ import Image from 'next/image';
 
 const GalleryPage = () => {
   const images = [
-    { src: 'https://via.placeholder.com/400x300.png?text=Aluminium+Gate+1', alt: 'Aluminium Gate 1' },
-    { src: 'https://via.placeholder.com/400x300.png?text=Aluminium+Window+1', alt: 'Aluminium Window 1' },
-    { src: 'https://via.placeholder.com/400x300.png?text=Aluminium+Gate+2', alt: 'Aluminium Gate 2' },
-    { src: 'https://via.placeholder.com/400x300.png?text=Aluminium+Window+2', alt: 'Aluminium Window 2' },
-    { src: 'https://via.placeholder.com/400x300.png?text=Custom+Design+1', alt: 'Custom Design 1' },
-    { src: 'https://via.placeholder.com/400x300.png?text=Custom+Design+2', alt: 'Custom Design 2' },
+    { src: 'https://images.unsplash.com/photo-1599493356221-a39e5a49154b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80', alt: 'Aluminium Gate 1' },
+    { src: 'https://images.unsplash.com/photo-1621928382769-e7951b8a2b93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80', alt: 'Aluminium Window 1' },
+    { src: 'https://images.unsplash.com/photo-1599493356221-a39e5a49154b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80', alt: 'Aluminium Gate 2' },
+    { src: 'https://images.unsplash.com/photo-1621928382769-e7951b8a2b93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80', alt: 'Aluminium Window 2' },
+    { src: 'https://images.unsplash.com/photo-1599493356221-a39e5a49154b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80', alt: 'Custom Design 1' },
+    { src: 'https://images.unsplash.com/photo-1621928382769-e7951b8a2b93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80', alt: 'Custom Design 2' },
   ];
 
   return (
