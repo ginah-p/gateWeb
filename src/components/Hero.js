@@ -14,8 +14,8 @@ const Hero = () => {
       <div className="relative">
         <h1 className="text-5xl font-bold mb-4">High-Quality Aluminium Gates & Windows</h1>
         <p className="text-xl mb-8">Custom designs to secure and beautify your property.</p>
-        <Link href="/gallery">
-          <a className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full">View Our Work</a>
+        <Link href="/gallery" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full">
+          View Our Work
         </Link>
       </div>
     </div>
